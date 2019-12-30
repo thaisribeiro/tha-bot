@@ -22,7 +22,7 @@ const InsertTemplateInTheChat = (template) => {
 
 // Calling server and get the watson output
 const getWatsonMessageAndInsertTemplate = async (text = '') => {
-  const uri = 'http://localhost:3000/conversation/';
+  const uri = 'https://bot-tha.netlify.com/conversation/';
 
   const response = await (await fetch(uri, {
     method: 'POST',
