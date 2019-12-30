@@ -4,7 +4,6 @@ import AssistantV1 from 'ibm-watson/assistant/v1'
 import { IamAuthenticator } from 'ibm-watson/auth'
 import bodyParser from 'body-parser'
 import { prop } from 'ramda'
-import { forEach } from 'async';
 
 const app = express()
 

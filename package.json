@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "serve": "nodemon app.js -L --exec babel-node",
+    "build": "npx babel . -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
